@@ -16,3 +16,11 @@ Sisisenisn sinna cd abil
 Tekitasin lokaalse repositooriumi git süsteemi jaosk antus kaustad
 
 git init
+
+#
+
+Faili iga muudatuse korral:
+git status - kontrollin, et fail on muudetud
+git add failinimi - lisa muudetud fail jälgimissüsteemi
+git commit -m "kirjeldus" - koosta muudatuse kirjeldus
+git log - kontrolli, et commit on salvestatud
