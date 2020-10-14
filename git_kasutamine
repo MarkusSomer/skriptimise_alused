@@ -1,0 +1,18 @@
+root kasutajana
+installisin giti - apt install git
+tavakasutajana esmakordselt
+
+seadistasin kasutaja ja emaili
+git config --global user.name "Ees.perekonnanimi"
+git config --global user.email kasutajanimi@email.ee
+git config --global core editor nano
+
+
+Lõin kataloogi, kus hakkan skirptima
+mkdir skriptimine
+
+Sisisenisn sinna cd abil
+
+Tekitasin lokaalse repositooriumi git süsteemi jaosk antus kaustad
+
+git init
