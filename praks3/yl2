@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#tegemist on väga lihtsa scriptiga milleks kasutan ühte echo käsurida, et anda kommentaari millega tegu ja date ja cal käsklusid.
+echo Tänane kuupäev on
+date
+cal
+
