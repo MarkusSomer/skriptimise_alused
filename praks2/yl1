@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#
+
+clear
+
+
+echo Kirjuta oma nimi
+read -p "Sisesta enda ees- ja perekonnanimi:" nimi
+echo "Tere, tulemast,  $nimi"
+
+echo -n "Sisest enda ees- ja perekonnanimi. "
+read eesnimi perenimi
+echo "Sinu eesnimi on $eesnimi ja perenimi $perenimi"
+
