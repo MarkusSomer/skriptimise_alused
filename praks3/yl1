@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#
+
+clear
+
+# $USER näitab kasutajat kes praegu on sees.
+echo "Tere, $USER !"
+
+
