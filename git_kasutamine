@@ -24,3 +24,20 @@ git status - kontrollin, et fail on muudetud
 git add failinimi - lisa muudetud fail jälgimissüsteemi
 git commit -m "kirjeldus" - koosta muudatuse kirjeldus
 git log - kontrolli, et commit on salvestatud
+
+b) git remote kontroll
+git remote -v
+
+põhikasutamine:
+
+a) pane fail jälgimisele:
+git add failinimi
+
+b) lisa kirjelduse muudatuse kohta
+git commit -m "lühikirjeldduse lause"
+
+
+c) lisa kaugrepositooriumi
+git push -uf skriptimine master
+
+test
