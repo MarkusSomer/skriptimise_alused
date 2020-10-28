@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+clear
+
+echo -n "Sisesta reisijate arv: "
+read reisijad
+echo -n "sisesta kohtade arv bussis: "
+read kohad
+
+bussid=$(($reisijad / $kohad))
+
+ylejaanud=$(($reisijad % $kohad))
+
+if test $ylejaanud -gt 0 
+then 
+	bussid=$(($bussid + 1))
+fi
+
+echo "Kokku on vaja $bussid taisbussi"
