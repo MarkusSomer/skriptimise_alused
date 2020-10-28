@@ -1,0 +1,12 @@
+#!/bin/bash
+
+clear
+
+read num
+if [ $((num%2)) -eq 0 ]
+then
+	echo "Sisestatud number on paaris"
+else
+	echo "Sisestatud number on paaritu"
+fi
+
