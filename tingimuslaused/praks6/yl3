@@ -1,0 +1,45 @@
+#!/bin/bash
+
+clear
+
+echo -e "Sisesta kuu number "
+read kuu
+if [ $kuu -eq 1 ]
+then
+	echo "See on jaanuar"
+elif [ $kuu -eq 2 ]
+then
+	echo "See on veebruar"
+elif [ $kuu -eq 3 ]
+then
+	echo "See on märts"
+elif [ $kuu -eq 4 ]
+then
+	echo "See on aprill"
+elif [ $kuu -eq 5 ]
+then
+	echo "See on mai"
+elif [ $kuu -eq 6 ]
+then
+	echo "See on juuni"
+elif [ $kuu -eq 7 ]
+then
+	echo "See on juuli"
+elif [ $kuu -eq 8 ]
+then 
+	echo "See on august"
+elif [ $kuu -eq 9 ]
+then
+	echo "See on september"
+elif [ $kuu -eq 10 ]
+then
+	echo "See on oktoober"
+elif [ $kuu -eq 11 ]
+then
+	echo "See on november"
+elif  [ $kuu -eq 12 ]
+then
+	echo "See on detsember"
+fi
+
+
