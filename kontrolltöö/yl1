@@ -1,0 +1,13 @@
+#!/bin/bash
+
+clear
+
+kellaaeg="$(date +"%I:%M")"
+
+kp="$(date +'%d/%m/%Y')"
+
+echo "Tere, $USER! Praegu on kell $kellaaeg $kp "	
+
+
+
+
