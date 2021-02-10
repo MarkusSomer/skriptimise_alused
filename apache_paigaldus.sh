@@ -13,7 +13,5 @@ if [ $APACHE2 -eq 0 ]; then
 	sed -i "s/Apache2 Debian Default Page: It works/Markuse script töötab/g" /var/www/html/index.html
 elif [ $APACHE2 -eq 1 ]; then
 	echo "Veebiserver on juba installitud"
-#	echo "Muudame veebilehe pealkirja."
-#	sed -i "s/Apache2 Debian Default Page: It works/Markuse script töötab/g" /var/www/html/index.html
 fi
 
